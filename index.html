@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kovalenko lb1</title>
+    </head>
+    <body>
+        <header>
+            <h1>Лабораторна робота №1</h1>
+            <h2>Основи побудови та публікації HTML-документів</h2>
+        </header>
+        <main>
+            <section>
+                <h3>Оформленний текст</h3>
+                <p>
+                    Основна <b>тригонометрична тотожність:</b> <br>
+                    <i>cos</i><sup>2</sup><b>&#945;</b> + <i>sin</i><sup>2</sup><b>&#945;</b> = 1 <br>
+                    Приклад суворої нерівності: &#945;&#60;&#946;. <br>
+                    Нестрога нерівність &#945;&#8804;&#946; означає, що
+                    <br>
+                    або &#945;&#60;&#946;, або &#945;=&#946;.
+                </p>
+            </section>
+            <br>
+            <section>
+                <h3>Дворівневий список з питаннями та варіантами відповідей</h3>
+                <ol>
+                    <li>
+                        <p>Яка мова програмування вам більше подобається?</p>
+                        <ul>
+                            <li>
+                                <label><input type="radio" name="q1" value="option1"> Python</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q1" value="option2"> JavaScript</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q1" value="option3"> Java</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p>Ваш улюблений вид спорту?</p>
+                        <ul>
+                            <li>
+                                <label><input type="radio" name="q2" value="option1"> Футбол</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q2" value="option2"> Баскетбол</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q2" value="option3"> Теніс</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p>Який ваш улюблений жанр музики?</p>
+                        <ul>
+                            <li>
+                                <label><input type="radio" name="q3" value="option1"> Рок</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q3" value="option2"> Поп</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q3" value="option3"> Хіп-хоп</label>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <br>
+            <section>
+                <h3>Таблиця з данними про успішність</h3>
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th>Студент</th>
+                            <th>АК</th>
+                            <th>СПЗ</th>
+                            <th>ФПР</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Андрій Бернадський</td>
+                            <td>70</td>
+                            <td>85</td>
+                            <td>92</td>
+                        </tr>
+                        <tr>
+                            <td>Данііл Касянчук</td>
+                            <td>75</td>
+                            <td>82</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>Лебідь Іван</td>
+                            <td>74</td>
+                            <td>91</td>
+                            <td>94</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br>
+            <section>
+                <h3>Форма реєстрації</h3>
+                <form>
+                    <input type="text" id="firstName" name="firstName" placeholder="Ім'я" required>
+                    <br><br>
+                    <input type="text" id="lastName" name="lastName" placeholder="Прізвище" required>
+                    <br><br>
+                    <input type="email" id="email" name="email" placeholder="Електронна пошта" required>
+                    <br><br>
+                    <input type="password" id="password" name="password" placeholder="Пароль" required>
+                    <br><br>
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        placeholder="Підтвердження паролю"
+                        required
+                   >
+                    <br>
+                    <br>
+                    <input type="submit" value="Зареєструватися">
+                </form>
+            </section>
+            <br>
+            <section>
+                <h3>Зображення-банер, що веде на офіційний сайт університету.</h3>
+                <a href="https://nure.ua/" target="_blank">
+                    <img src="./nure.jpg" alt="Університет ХНУРЕ">
+                </a>
+            </section>
+            <footer><h3>Дякую за увагу</h3></footer>
+        </main>
+    </body>
+</html>
